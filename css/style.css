@@ -61,9 +61,17 @@ img{
     font-size: 16px;
     color: #000;
     font-family: 'Merriweather', sans-serif;
-    width: 652px;
+    max-width: 652px;
     margin: 0 auto;
     line-height: 1.6;
+}
+.contrast {
+	color: #fff;
+}
+@media( max-width: 992px ) {
+	.contrast {
+		color: #222;
+	}
 }
 .landing-tagline em{
 	color: #795548;
