@@ -4,8 +4,23 @@ body {
 	margin-bottom: 1.71429em;
 	margin-bottom: 0;
 	font-family: 'Merriweather', serif, 'Open Sans', sans-serif;
-	background: #FFFDE9;
+	background-color: #FFFDE9;
+	
 }
+
+#page {
+	background-image: url(../img/shoes.png);
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: bottom;
+}
+
+@media ( max-width: 992px) {
+	#page {
+		background-size: 50%;
+	}
+}
+
 h1{
   font-size: 2.375em;		
   line-height: 30px;
