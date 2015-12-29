@@ -66,10 +66,11 @@ img{
 
 .shoemaker-choose-platform,
 .shoemaker-powered-by{
-    font-size: 12px;
-	color: #795548;
-    font-style: italic;
+    font-size: 16px;
+	color: #383534;
+    font-weight: bold;
 	text-align: center;	
+	font-family: 'Open Sans', 'Merriweather';
 }
 .shoemaker-powered-by-container{
 	margin-bottom: 40px;
