@@ -4,6 +4,7 @@ body {
 	margin-bottom: 1.71429em;
 	margin-bottom: 0;
 	font-family: 'Merriweather', serif, 'Open Sans', sans-serif;
+	background: #FFFDE9;
 }
 h1{
   font-size: 2.375em;		
@@ -37,14 +38,17 @@ img{
 .landing-title{
     text-align: center;
     font-weight: bold;
-    FONT-SIZE: 24PX;
-    FONT-FAMILY: "open sans";
+    font-size: 24PX;
+    font-family: "open sans";
 }
 .landing-tagline{
     text-align: center;
-    font-size: 1em;
-    color: black;
-	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Merriweather', sans-serif;
+    width: 652px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 .landing-tagline em{
 	color: #795548;
@@ -96,7 +100,7 @@ img{
 	width: 300px;
 	height: auto;
 	float: right;
-    border: 1px solid #ddd;
+    border: 1px solid #E7E1AB;
     padding: 10px;
 } 
 .container-select .platform-select:nth-child(2) img{
@@ -112,7 +116,6 @@ img{
 	box-shadow: 0 3px 12px rgba(0,0,0,0.23),0 3px 12px rgba(0,0,0,0.16);
 }
 .powered-by-content img{
-	width: 100%;
 	display: block;
     margin: 0 auto;
 }
@@ -220,4 +223,13 @@ img{
 	.shoemaker-mock-up{
 		margin-top: 20px;
 	}
+}
+
+#ls-logo,
+#ls-vc {
+	margin: 0;
+}
+
+#ls-vc {
+	float: right;
 }
